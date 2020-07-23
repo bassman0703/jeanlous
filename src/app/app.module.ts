@@ -8,6 +8,7 @@ import {AppRoutingModule} from './app-routing.module';
 import { TopBarComponent } from './shared/components/top-bar/top-bar.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { BlogComponent } from './pages/blog/blog.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { BlogComponent } from './pages/blog/blog.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
