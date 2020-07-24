@@ -328,6 +328,7 @@ h1,
 .h1 {
   color: #000;
   margin: 35px 0
+
 }
 
 h2,
@@ -504,9 +505,7 @@ body {
 }
 
 
-#pageContent {
-  position: relative
-}
+
 
 .fullWidth {
   width: auto;
@@ -520,10 +519,6 @@ body {
   overflow: hidden
 }
 
-.wide80 {
-  margin: 0 auto;
-  width: 1280px
-}
 
 .wide78 {
   background: #fff;
@@ -1125,9 +1120,7 @@ button:focus {
   display: table-cell
 }
 
-.lineHeight0 {
-  line-height: 0
-}
+
 
 .clearfix:before,
 .clearfix:after {
@@ -2792,10 +2785,7 @@ p.userName {
   padding-right: 0
 }
 
-#menuBlock nav {
-  float: right;
-  line-height: 106px
-}
+
 
 #menuBlock,
 #mobileMenuBlock {
@@ -3568,11 +3558,6 @@ button[type="submit"]:focus {
   width: 100%
 }
 
-#menuBlock nav {
-  vertical-align: bottom;
-  line-height: 106px
-}
-
 #menuBlock .imgOver {
   padding: 3%
 }
@@ -3800,7 +3785,7 @@ footer .icon {
 
 .buttonFooter--red svg {
   fill: white;
-  margin-right: 7px
+
 }
 
 .buttonFooter--red:hover {
@@ -3869,13 +3854,8 @@ footer .icon {
   }
 }
 
-.carusel {
-  position: relative
-}
 
-.carusel img {
-  width: 100%
-}
+
 
 .carusel .blockInfo {
   background-color: rgba(255, 255, 255, 0.8);
@@ -4213,7 +4193,7 @@ footer .icon {
 }
 
 a.moreNews {
-  border-bottom: 1px solid #3d3d3d;
+  border-bottom: 1px solid ;
   display: inline-block;
   float: right;
   line-height: 1;
@@ -19732,6 +19712,7 @@ body.shp #sideBarBlock .content {
 
   #expertBlockShp .wide80 {
     margin-left: -2%
+
   }
 
   #expertBlockShp .colLists {
@@ -28833,7 +28814,7 @@ body.shp #sideBarBlock .content {
 
 .newDesign .tag a {
   color: #171715;
-  font-size: 15px;
+  font-size: 20px;
   position: relative;
   margin: 7px 3px;
   padding: 0 6px;

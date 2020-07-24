@@ -1,0 +1,32 @@
+.newDesign.article-page .colCenter h1 {
+  font-size: 43px;
+  margin-bottom: 20px
+}
+.h1-body{
+  text-align: center;
+  font-family: "BPG Arial Caps", sans-serif;
+
+}
+.h2-blog{
+  text-align: center;
+  font-family: "BPG Arial Caps", sans-serif;
+
+}
+.p-body{
+  font-family: "BPG Arial", sans-serif;
+  margin: 20px 0 20px;
+}
+.h3-body{
+  font-family: "BPG Arial Caps", sans-serif;
+}
+.newDesign .tag a:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  right: 0;
+  bottom: -3px;
+  background: #d4b26a;
+  height: 9px;
+  z-index: -1;
+  transform: skewX(-10deg)
+}
