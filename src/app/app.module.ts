@@ -14,6 +14,14 @@ import { BodyComponent } from './pages/blog/body/body.component';
 import { HomeHeadImgComponent } from './pages/home/home-head-img/home-head-img.component';
 import { HomeNewsComponent } from './pages/home/home-news/home-news.component';
 import { ExpertsComponent } from './pages/home/experts/experts.component';
+import { ServiceComponent } from './pages/service/service.component';
+import { GroupComponent } from './pages/group/group.component';
+import { GalleryComponent } from './pages/gallery/gallery.component';
+import { AboutComponent } from './pages/blog/about/about.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { ContactImgComponent } from './pages/contact/contact-img/contact-img.component';
+import { ContactPageHeadComponent } from './pages/contact/contact-page-head/contact-page-head.component';
+import { ContactSidebarComponent } from './pages/contact/contact-sidebar/contact-sidebar.component';
 
 
 @NgModule({
@@ -29,6 +37,16 @@ import { ExpertsComponent } from './pages/home/experts/experts.component';
     HomeHeadImgComponent,
     HomeNewsComponent,
     ExpertsComponent,
+    ServiceComponent,
+    GroupComponent,
+    GalleryComponent,
+    AboutComponent,
+    ContactComponent,
+    ContactImgComponent,
+    ContactPageHeadComponent,
+    ContactSidebarComponent,
+
+
 
   ],
   imports: [

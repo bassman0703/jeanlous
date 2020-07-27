@@ -1,0 +1,418 @@
+<div class="contactPageHead">
+  <div class="contactTitle">
+    <h1>Nous contacter</h1>
+  </div>
+  <div class="pageDescription">
+    <div class="quoteWrap">
+      <p>Un avis, une question, une suggestion... Notre Service Client est à votre écoute. Choisissez la rubrique sur laquelle porte votre demande et remplissez le formulaire associé. Merci d'indiquer une adresse électronique valide qui nous permettra de vous répondre dans les meilleurs délais.</p>
+    </div>
+  </div>
+  <div class="contactForm">
+    <div id="contactForm">
+      <div class="content">
+
+        <div id="form_types">
+          <ul>
+            <li class="active" data-form-type="2">Produits capillaires / Accessoires</li>
+            <li class="" data-form-type="3">Carte de fidélité</li>
+            <li class="" data-form-type="4">Centre de formation</li>
+            <li class="" data-form-type="5">Recrutement / Candidature spontanée</li>
+            <li class="" data-form-type="7">Autre</li>
+          </ul>
+        </div>
+
+        <div class="form_types_select">
+          <select id="form_types_select">
+            <option value="2">Produits capillaires / Accessoires</option>
+            <option value="3">Carte de fidélité</option>
+            <option value="4">Centre de formation</option>
+            <option value="5">Recrutement / Candidature spontanée</option>
+            <option value="7">Autre</option>
+          </select>
+        </div>
+
+        <form id="form-type-2" name="form-2" class="contact-form active" novalidate="novalidate" style="display: block;">
+          <input type="hidden" name="id" value="2">
+          <input type="hidden" name="feedback_id" value="1">
+          <input type="hidden" name="type_id" value="2">
+          <input type="hidden" name="label" value="Produits capillaires / Accessoires">
+          <input type="hidden" name="check_field" value="">
+
+          <h2>Produits capillaires / Accessoires</h2>
+
+          <div class="profile-data row product-select">
+            <div class="wrapper">
+              <select name="subject" class="required">
+                <option value="" disabled="" selected="">Sélectionnez une catégorie de produits</option>
+                <option value="0">Produits capillaires en salon</option>
+                <option value="1">Produits capillaires en grande surface</option>
+                <option value="2">Accessoires en salon</option>
+                <option value="3">Accessoires en grande surface</option>
+              </select>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+
+
+          <h3>Données personnelles</h3>
+
+          <div class="profile-data row">
+            <div class="wrapper">
+              <select name="sexe" class="required">
+                <option value="" disabled="" selected="">Civilité*</option>
+                <option value="1">Monsieur</option>
+                <option value="2">Madame</option>
+              </select>
+            </div>
+
+            <div class="wrapper">
+              <input type="text" name="lastname" class="required" placeholder="Nom*"></div>
+
+            <div class="wrapper">
+              <input type="text" name="firstname" class="required" placeholder="Prénom*"></div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="profile-data2 row">
+            <div class="wrapper">
+              <input type="text" name="birthday" class="date " placeholder="Date de naissance (dd/mm/yyyy)"></div>
+            <div class="wrapper">
+              <input type="text" name="postalcode" class="number " placeholder="Code postal"></div>
+
+            <div class="wrapper">
+              <input type="text" name="email" class="email required" placeholder="Email*"></div>
+
+            <div class="wrapper">
+              <input type="text" name="phone" class="" placeholder="Numéro de téléphone"></div>
+
+
+          </div>
+          <div class="clearfix"></div>
+
+
+          <h3>Votre message</h3>
+
+          <div class="profile-data-message row">
+            <div class="wrapper">
+              <textarea name="feedback" class="" placeholder="Saisissez votre message"></textarea></div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="profile-data attach row clearfix">
+            <div class="wrapper">
+              <label for="file">Ajoutez une pièce jointe :</label>
+              <div>
+                <div class="fileAttach">
+                  <div>
+                    <a href="javascript:href(0)">Joindre un fichier</a>
+                  </div>
+                  <input type="file" name="file">
+                </div>
+                <p>(Formats autorisés : jpg, jpeg, gif, png, doc, docx, pdf)</p>
+              </div>
+            </div>
+          </div>
+
+          <p class="contact-mandatory">* Champs obligatoires</p>
+          <span class="error"></span>
+          <span class="form-result"></span>
+
+          <button type="submit" name="submit_button" class="accept">Envoyez votre message</button>
+          <p class="contact-form__label"></p>
+        </form>                        <form id="form-type-3" name="form-3" class="contact-form " novalidate="novalidate" style="display: none;">
+        <input type="hidden" name="id" value="3">
+        <input type="hidden" name="feedback_id" value="1">
+        <input type="hidden" name="type_id" value="3">
+        <input type="hidden" name="label" value="Carte de fidélité">
+        <input type="hidden" name="check_field" value="">
+
+        <h2>Carte de fidélité</h2>
+
+
+        <div class="profile-data row">
+          <div class="wrapper">
+            <input type="text" name="fidcard" class="required" placeholder="Numéro de carte de fidélité*"></div>
+        </div>
+        <div class="clearfix"></div>
+
+        <h3>Données personnelles</h3>
+
+        <div class="profile-data row">
+          <div class="wrapper">
+            <select name="sexe" class="required">
+              <option value="" disabled="" selected="">Civilité*</option>
+              <option value="1">Monsieur</option>
+              <option value="2">Madame</option>
+            </select>
+          </div>
+
+          <div class="wrapper">
+            <input type="text" name="lastname" class="required" placeholder="Nom*"></div>
+
+          <div class="wrapper">
+            <input type="text" name="firstname" class="required" placeholder="Prénom*"></div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="profile-data2 row">
+          <div class="wrapper">
+            <input type="text" name="birthday" class="date " placeholder="Date de naissance (dd/mm/yyyy)"></div>
+          <div class="wrapper">
+            <input type="text" name="postalcode" class="number " placeholder="Code postal"></div>
+
+          <div class="wrapper">
+            <input type="text" name="email" class="email required" placeholder="Email*"></div>
+
+          <div class="wrapper">
+            <input type="text" name="phone" class="" placeholder="Numéro de téléphone"></div>
+
+
+        </div>
+        <div class="clearfix"></div>
+
+
+        <h3>Votre message</h3>
+
+        <div class="profile-data-message row">
+          <div class="wrapper">
+            <textarea name="feedback" class="" placeholder="Saisissez votre message"></textarea></div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="profile-data attach row clearfix">
+          <div class="wrapper">
+            <label for="file">Ajoutez une pièce jointe :</label>
+            <div>
+              <div class="fileAttach">
+                <div>
+                  <a href="javascript:href(0)">Joindre un fichier</a>
+                </div>
+                <input type="file" name="file">
+              </div>
+              <p>(Formats autorisés : jpg, jpeg, gif, png, doc, docx, pdf)</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="contact-mandatory">* Champs obligatoires</p>
+        <span class="error"></span>
+        <span class="form-result"></span>
+
+        <button type="submit" name="submit_button" class="accept">Envoyez votre message</button>
+        <p class="contact-form__label"></p>
+      </form>                        <form id="form-type-4" name="form-4" class="contact-form " novalidate="novalidate" style="display: none;">
+        <input type="hidden" name="id" value="4">
+        <input type="hidden" name="feedback_id" value="1">
+        <input type="hidden" name="type_id" value="3">
+        <input type="hidden" name="label" value="Centre de formation">
+        <input type="hidden" name="check_field" value="">
+
+        <h2>Centre de formation</h2>
+
+
+
+        <h3>Données personnelles</h3>
+
+        <div class="profile-data row">
+          <div class="wrapper">
+            <select name="sexe" class="required">
+              <option value="" disabled="" selected="">Civilité*</option>
+              <option value="1">Monsieur</option>
+              <option value="2">Madame</option>
+            </select>
+          </div>
+
+          <div class="wrapper">
+            <input type="text" name="lastname" class="required" placeholder="Nom*"></div>
+
+          <div class="wrapper">
+            <input type="text" name="firstname" class="required" placeholder="Prénom*"></div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="profile-data2 row">
+          <div class="wrapper">
+            <input type="text" name="birthday" class="date " placeholder="Date de naissance (dd/mm/yyyy)"></div>
+          <div class="wrapper">
+            <input type="text" name="postalcode" class="number " placeholder="Code postal"></div>
+
+          <div class="wrapper">
+            <input type="text" name="email" class="email required" placeholder="Email*"></div>
+
+          <div class="wrapper">
+            <input type="text" name="phone" class="" placeholder="Numéro de téléphone"></div>
+
+
+        </div>
+        <div class="clearfix"></div>
+
+
+        <h3>Votre message</h3>
+
+        <div class="profile-data-message row">
+          <div class="wrapper">
+            <textarea name="feedback" class="" placeholder="Saisissez votre message"></textarea></div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="profile-data attach row clearfix">
+          <div class="wrapper">
+            <label for="file">Ajoutez une pièce jointe :</label>
+            <div>
+              <div class="fileAttach">
+                <div>
+                  <a href="javascript:href(0)">Joindre un fichier</a>
+                </div>
+                <input type="file" name="file">
+              </div>
+              <p>(Formats autorisés : jpg, jpeg, gif, png, doc, docx, pdf)</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="contact-mandatory">* Champs obligatoires</p>
+        <span class="error"></span>
+        <span class="form-result"></span>
+
+        <button type="submit" name="submit_button" class="accept">Envoyez votre message</button>
+        <p class="contact-form__label"></p>
+      </form>                        <form id="form-type-5" name="form-5" class="contact-form " novalidate="novalidate" style="display: none;">
+        <input type="hidden" name="id" value="5">
+        <input type="hidden" name="feedback_id" value="1">
+        <input type="hidden" name="type_id" value="3">
+        <input type="hidden" name="label" value="Recrutement / Candidature spontanée">
+        <input type="hidden" name="check_field" value="">
+
+        <h2>Recrutement / Candidature spontanée</h2>
+
+
+
+        <h3>Données personnelles</h3>
+
+        <div class="profile-data row">
+          <div class="wrapper">
+            <select name="sexe" class="required">
+              <option value="" disabled="" selected="">Civilité*</option>
+              <option value="1">Monsieur</option>
+              <option value="2">Madame</option>
+            </select>
+          </div>
+
+          <div class="wrapper">
+            <input type="text" name="lastname" class="required" placeholder="Nom*"></div>
+
+          <div class="wrapper">
+            <input type="text" name="firstname" class="required" placeholder="Prénom*"></div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="profile-data2 row">
+          <div class="wrapper">
+            <input type="text" name="birthday" class="date " placeholder="Date de naissance (dd/mm/yyyy)"></div>
+          <div class="wrapper">
+            <input type="text" name="postalcode" class="number " placeholder="Code postal"></div>
+
+          <div class="wrapper">
+            <input type="text" name="email" class="email required" placeholder="Email*"></div>
+
+          <div class="wrapper">
+            <input type="text" name="phone" class="" placeholder="Numéro de téléphone"></div>
+
+
+        </div>
+        <div class="clearfix"></div>
+
+
+        <h3>Votre message</h3>
+
+        <div class="profile-data-message row">
+          <div class="wrapper">
+            <textarea name="feedback" class="" placeholder="Saisissez votre message"></textarea></div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="profile-data attach row clearfix">
+          <div class="wrapper">
+            <label for="file">Ajoutez une pièce jointe :</label>
+            <div>
+              <div class="fileAttach">
+                <div>
+                  <a href="javascript:href(0)">Joindre un fichier</a>
+                </div>
+                <input type="file" name="file">
+              </div>
+              <p>(Formats autorisés : jpg, jpeg, gif, png, doc, docx, pdf)</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="contact-mandatory">* Champs obligatoires</p>
+        <span class="error"></span>
+        <span class="form-result"></span>
+
+        <button type="submit" name="submit_button" class="accept">Envoyez votre message</button>
+        <p class="contact-form__label"></p>
+      </form>                        <form id="form-type-7" name="form-7" class="contact-form " novalidate="novalidate" style="display: none;">
+        <input type="hidden" name="id" value="7">
+        <input type="hidden" name="feedback_id" value="1">
+        <input type="hidden" name="type_id" value="4">
+        <input type="hidden" name="label" value="Autre">
+        <input type="hidden" name="check_field" value="">
+
+        <h2>Autre</h2>
+
+
+
+        <h3>Données personnelles</h3>
+
+        <div class="profile-data row">
+          <div class="wrapper">
+            <select name="sexe" class="required">
+              <option value="" disabled="" selected="">Civilité*</option>
+              <option value="1">Monsieur</option>
+              <option value="2">Madame</option>
+            </select>
+          </div>
+
+          <div class="wrapper">
+            <input type="text" name="lastname" class="required" placeholder="Nom*"></div>
+
+          <div class="wrapper">
+            <input type="text" name="firstname" class="required" placeholder="Prénom*"></div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="profile-data2 row">
+          <div class="wrapper">
+            <input type="text" name="birthday" class="date " placeholder="Date de naissance (dd/mm/yyyy)"></div>
+          <div class="wrapper">
+            <input type="text" name="postalcode" class="number " placeholder="Code postal"></div>
+
+          <div class="wrapper">
+            <input type="text" name="email" class="email required" placeholder="Email*"></div>
+
+          <div class="wrapper">
+            <input type="text" name="phone" class="" placeholder="Numéro de téléphone"></div>
+
+
+        </div>
+        <div class="clearfix"></div>
+
+
+
+        <div class="profile-data attach row clearfix">
+          <div class="wrapper">
+            <label for="file">Ajoutez une pièce jointe :</label>
+            <div>
+              <div class="fileAttach">
+                <div>
+                  <a href="javascript:href(0)">Joindre un fichier</a>
+                </div>
+                <input type="file" name="file">
+              </div>
+              <p>(Formats autorisés : jpg, jpeg, gif, png, doc, docx, pdf)</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="contact-mandatory">* Champs obligatoires</p>
+        <span class="error"></span>
+        <span class="form-result"></span>
+
+        <button type="submit" name="submit_button" class="accept">Envoyez votre message</button>
+        <p class="contact-form__label"></p>
+      </form>
+      </div>
+    </div>
+  </div>            </div>
